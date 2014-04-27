@@ -1,0 +1,29 @@
+{
+  "name": "docit",
+  "version": "0.0.0",
+  "description": "docit =====",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/beefy main.jsx:main.js --live --cwd public -- -t reactify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/roberttod/docit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roberttod/docit/issues"
+  },
+  "homepage": "https://github.com/roberttod/docit",
+  "dependencies": {
+    "express": "^4.1.0",
+    "browserify": "^3.44.2",
+    "reactify": "^0.13.1",
+    "jquery": "^2.1.0",
+    "envify": "^1.2.1",
+    "react": "^0.10.0",
+    "beefy": "^1.1.0"
+  }
+}
