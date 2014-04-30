@@ -1,7 +1,6 @@
-var insertCss = require('insert-css');
-insertCss(require('./main.styl'));
+/** @jsx React.DOM */
 
-
+require('./main.styl');
 var $ = require('jquery');
 var React = require('react');
 var DocitList = require('./docit-list/docit-list.jsx');
