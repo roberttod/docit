@@ -11,8 +11,12 @@ module.exports = React.createClass({
   render: function() {
     return (
       <div className='docit-row'>
-        <button className='label' onClick={this.handleUpload}><b>{this.props.docit.accountId}</b> {this.props.docit.type}</button>
-        <button className='edit' onClick={this.handleEdit}>Edit</button>
+        <button className='label' onClick={this.handleUpload}>
+          <b>{this.props.docit.accountId}</b> {this.props.docit.type}
+        </button>
+        <button className='edit' onClick={this.handleEdit}>
+          <i className="fa fa-pencil"></i>
+        </button>
       </div>
     );
   }
