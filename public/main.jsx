@@ -2,29 +2,11 @@
 
 require('font-awesome/css/font-awesome.css');
 require('./main.styl');
-var $ = require('jquery');
-var React = require('react');
-var DocitList = require('./docit-list/docit-list.jsx');
-var docits = [
-  { accountId: "011455", type: 'Fire alarm' },
-  { accountId: "098899", type: 'Fire alarm' },
-  { accountId: "001222", type: 'CCTV' }
-];
+require('./router.jsx');
+// module.exports = Main;
 
-var Main = React.createClass({
-  getInitialState: function() {
-    return {
-      docits: docits
-    };
-  },
-  render: function() {
-    return (
-      <DocitList docits={this.state.docits}/>
-    );
-  }
-});
 
-window.main = React.renderComponent(
-  <Main />,
-  $('.main').get(0)
-);
+// window.main = React.renderComponent(
+//   <Main />,
+//   $('.main').get(0)
+// );

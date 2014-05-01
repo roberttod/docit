@@ -1,4 +1,15 @@
 lightBlue = #3175CC
+green = #4BA04B
+red = #EB4F4F
+
+.red, .blue, .green
+  color white
+.red
+  background-color red
+.green
+  background-color green
+.blue
+  background-color lightBlue
 
 h1
   font-size 1.5em
@@ -13,9 +24,19 @@ body
   background-color #eee
   font-family "HelveticaNeue-Light", "Helvetica Neue"
 
-.main
+  button
+    font-family "HelveticaNeue-Light", "Helvetica Neue"
+    font-size 1em
+    background white
+    border none
+    border-radius 0
+    margin 0
+    padding 1em
+
+
+#main
   position absolute
-  top 0
+  top 2.6em
   left 0
   right 0
   bottom 0
@@ -23,3 +44,5 @@ body
 
 
 @import "./docit-list/docit-list"
+@import "./new-docit/new-docit"
+@import "./banner/banner"

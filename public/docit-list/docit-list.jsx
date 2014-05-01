@@ -11,11 +11,9 @@ module.exports = React.createClass({
     });
     return (
       <div className='docit-list'>
-        <h1>Docits</h1>
         <div className='docits'>
           {rows}
         </div>
-        <button className='new-docit'>New docit</button>
       </div>
     );
   }

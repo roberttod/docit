@@ -9,7 +9,10 @@ module.exports = {
       { test: /\.png/, loader: "url-loader?limit=100000&mimetype=image/png" },
       { test: /\.(eot|woff|ttf|svg)/, loader: "url-loader?limit=100000" },
       { test: /\.css$/, loader: 'style-loader!css-loader!' },
-      { test: /\.styl$/, loader: 'style-loader!css-loader!stylus-loader' },
+      { 
+        test: /\.styl$/,
+        loader: 'style-loader!css-loader!autoprefixer-loader!stylus-loader'
+      },
       { test: /\.jsx$/, loader: 'jsx-loader?insertPragma&harmony' }
     ]
   },

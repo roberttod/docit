@@ -30,6 +30,9 @@
     "css-loader": "^0.6.12",
     "file-loader": "^0.5.1",
     "url-loader": "^0.5.5",
-    "font-awesome": "^4.0.3"
+    "font-awesome": "^4.0.3",
+    "react-async": "^0.9.1",
+    "react-router-component": "^0.18.2",
+    "autoprefixer-loader": "^0.1.1"
   }
 }
