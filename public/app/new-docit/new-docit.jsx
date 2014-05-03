@@ -1,5 +1,3 @@
-/** @jsx React.DOM */
-
 var React = require('react');
 
 module.exports = React.createClass({
@@ -12,7 +10,7 @@ module.exports = React.createClass({
         </form>
         <div className='actions'>
           <button className='save blue'>Save</button>
-          <button className='complete green'>Mark as complete</button>
+          <button className='complete blue'>Mark as complete</button>
           <button className='delete red'>Delete</button>
         </div>
       </div>

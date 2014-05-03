@@ -13,12 +13,12 @@ module.exports = {
         test: /\.styl$/,
         loader: 'style-loader!css-loader!autoprefixer-loader!stylus-loader'
       },
-      { test: /\.jsx$/, loader: 'jsx-loader?insertPragma&harmony' }
+      { test: /\.jsx$/, loader: 'jsx-loader?insertPragma=React.DOM' }
     ]
   },
   devtool: 'source-map',
   plugins: [
-    new webpack.optimize.DedupePlugin(),
+    // new webpack.optimize.DedupePlugin(),
     // new webpack.optimize.UglifyJsPlugin()
   ],
   resolve: {

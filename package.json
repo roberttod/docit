@@ -33,6 +33,7 @@
     "font-awesome": "^4.0.3",
     "react-async": "^0.9.1",
     "react-router-component": "^0.18.2",
-    "autoprefixer-loader": "^0.1.1"
+    "autoprefixer-loader": "^0.1.1",
+    "cherrytree": "^0.2.1"
   }
 }

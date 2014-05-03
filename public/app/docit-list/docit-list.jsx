@@ -1,5 +1,3 @@
-/** @jsx React.DOM */
-
 var React = require('react');
 var DocitRow = require('./docit-row.jsx');
 module.exports = React.createClass({
