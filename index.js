@@ -4,7 +4,7 @@ var React = require('react');
 
 app.get('/*', function(req, res){
   if (!/^api\//.test(req.params[0])) {
-    res.sendfile('./public//index.html');
+    res.sendfile('./public/index.html');
   }
 });
 
